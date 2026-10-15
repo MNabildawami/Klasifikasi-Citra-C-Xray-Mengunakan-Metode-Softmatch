@@ -250,3 +250,90 @@ The manuscript reports the experimental methodology, ablation results, classific
 <p align="center">
   <strong>Exploring robust medical image classification with limited labeled data.</strong>
 </p>
+
+## 📚 References
+
+This project is based on established research in semi-supervised learning, convolutional neural networks, and medical image classification.
+
+### Core References
+
+**1. SoftMatch — Semi-Supervised Learning**
+
+Chen, H., Tao, R., Fan, Y., Wang, Y., Wang, J., Schiele, B., Xie, X., Raj, B., & Savvides, M. (2023). *SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning.* International Conference on Learning Representations (ICLR).
+
+- Paper: https://openreview.net/forum?id=ymt1zQXBDiF
+- arXiv: https://arxiv.org/abs/2301.10921
+- Official implementation: https://github.com/Hhhhhhao/SoftMatch
+
+**2. DenseNet — Convolutional Neural Network Architecture**
+
+Huang, G., Liu, Z., van der Maaten, L., & Weinberger, K. Q. (2017). *Densely Connected Convolutional Networks.* Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 4700–4708.
+
+- Paper: https://openaccess.thecvf.com/content_cvpr_2017/html/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.html
+- DOI: https://doi.org/10.1109/CVPR.2017.243
+- Official implementation: https://github.com/liuzhuang13/DenseNet
+
+**3. Chest X-Ray Dataset**
+
+Kumar, S. (2022). *Covid19-Pneumonia-Normal Chest X-Ray Images* [Data set]. Mendeley Data, Version 1.
+
+- Dataset: https://data.mendeley.com/datasets/dvntn9yhd2/1
+- DOI: https://doi.org/10.17632/dvntn9yhd2.1
+
+### Additional References
+
+**4. LiteCovidNet — Chest X-Ray Classification**
+
+Kumar, S., Shastri, S., Mahajan, S., Singh, K., Gupta, S., Rani, R., Mohan, N., & Mansotra, V. (2022). LiteCovidNet: A lightweight deep neural network model for detection of COVID-19 using X-ray images. *International Journal of Imaging Systems and Technology, 32*(5), 1464–1480.
+
+- DOI: https://doi.org/10.1002/ima.22770
+
+**5. CheXImageNet — Chest X-Ray Classification**
+
+Shastri, S., Kansal, I., Kumar, S., Singh, K., Popli, R., & Mansotra, V. (2022). CheXImageNet: A novel architecture for accurate classification of COVID-19 with chest X-ray digital images using deep convolutional neural networks. *Health and Technology, 12*(1), 193–204.
+
+- DOI: https://doi.org/10.1007/s12553-021-00630-x
+
+**6. Semi-Supervised Learning for Medical Image Classification**
+
+Huynh, T., Nibali, A., & He, Z. (2022). Semi-supervised learning for medical image classification using imbalanced training data. *Computer Methods and Programs in Biomedicine, 216*, 106628.
+
+- DOI: https://doi.org/10.1016/j.cmpb.2022.106628
+
+**7. Self-Supervised Mean Teacher for Chest X-Ray Classification**
+
+Liu, F., Tian, Y., Cordeiro, F. R., Belagiannis, V., Reid, I., & Carneiro, G. (2021). Self-supervised Mean Teacher for Semi-supervised Chest X-Ray Classification. In *Machine Learning in Medical Imaging* (pp. 426–436). Springer.
+
+- DOI: https://doi.org/10.1007/978-3-030-87589-3_44
+
+**8. FixMatch for COVID-19 Detection**
+
+Sajun, A. R., Zualkernan, I., & Sankalpa, D. (2022). Investigating the Performance of FixMatch for COVID-19 Detection in Chest X-rays. *Applied Sciences, 12*(9), 4694.
+
+- DOI: https://doi.org/10.3390/app12094694
+
+**9. Image Augmentation for COVID-19 Detection**
+
+Elgendi, M., et al. (2021). The Effectiveness of Image Augmentation in Deep Learning Networks for Detecting COVID-19: A Geometric Transformation Perspective. *Frontiers in Medicine, 8*.
+
+- DOI: https://doi.org/10.3389/fmed.2021.629134
+
+**10. Anatomy-Aware Chest X-Ray Classification**
+
+Kamal, U., Zunaed, M., Nizam, N. B., & Hasan, T. (2022). Anatomy-XNet: An Anatomy Aware Convolutional Neural Network for Thoracic Disease Classification in Chest X-Rays. *IEEE Journal of Biomedical and Health Informatics, 26*(11), 5518–5528.
+
+- DOI: https://doi.org/10.1109/JBHI.2022.3199594
+
+---
+
+### Citation and Attribution
+
+The implementation and experimental design in this repository draw on the research listed above. Please cite the original SoftMatch paper, DenseNet paper, and dataset source when using or extending this work in academic research.
+
+Dataset credit: Sachin Kumar, Mendeley Data (2022).
+
+Architecture credit: Gao Huang, Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger (2017).
+
+Semi-supervised learning method credit: Hao Chen and co-authors (2023).
+
+For complete background and further supporting studies, consult the references in the accompanying research manuscript.
